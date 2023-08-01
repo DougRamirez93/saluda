@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS saludoB
 WORKDIR webApiSaludoB
 
 # Se expone el puerto en el que se ejecutará la API
-EXPOSE 83
+EXPOSE 80
 
 # Se copia el archivo csproj y restaura las dependencias
 COPY ./*.csproj ./
